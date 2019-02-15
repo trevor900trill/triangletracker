@@ -97,7 +97,7 @@ var clickFunction = (()=>{
         document.getElementsByClassName("show1")[0].textContent=ans1;
         document.getElementsByClassName("show2")[0].textContent=ans2;
         document.getElementsByClassName("show3")[0].textContent=ans3;
-        alert("not a triangle"); 
+        alert("not a triangle");
       });
-  }
+  }  
 });
