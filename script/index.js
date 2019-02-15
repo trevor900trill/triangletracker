@@ -31,15 +31,32 @@ var clickFunction = (()=>{
       console.log(firstValue.value + " " +secondValue.value+" "+ thirdValue.value);
       //logic for triangle tracker goes WHERE WHERE here
       //define for not a triangle;
-      var ans1 = firstValue.value;
-      var ans2 = secondValue.value;
-      var ans3 = thirdValue.value;
-      var possibility1 = ans1 + ans2;
-      var possibility2 = ans2 + ans3;
-      var possibility3 = ans1 + ans3;
-      if()
-      {
-        
+      function check(callback){
+        var ans1 = parseInt(firstValue.value);
+        var ans2 = parseInt(secondValue.value);
+        var ans3 = parseInt(thirdValue.value);
+        function add(number1 , number2){
+          return number1 + number2;
+        }
+        var possibility1 = add(ans1 , ans2);
+        var possibility2 = add(ans2 , ans3);
+        var possibility3 = add(ans1 , ans3);
+        if(possibility1 === ans3 || possibility1 < ans3)
+        {
+          callback();
+        }
+        else if(possibility2 === ans1 || possibility2 < ans1)
+        {
+          callback();
+        }
+        else if(possibility3 === ans2 || possibility3 < ans2)
+        {
+          callback();
+        }
       }
+      check(function(){
+        //not a triangle logic goes here
+        alert("not a triangle");
+      });
   }
 });
