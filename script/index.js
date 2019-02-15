@@ -29,6 +29,17 @@ var clickFunction = (()=>{
   {
       //all the fiels are there
       console.log(firstValue.value + " " +secondValue.value+" "+ thirdValue.value);
-
+      //logic for triangle tracker goes WHERE WHERE here
+      //define for not a triangle;
+      var ans1 = firstValue.value;
+      var ans2 = secondValue.value;
+      var ans3 = thirdValue.value;
+      var possibility1 = ans1 + ans2;
+      var possibility2 = ans2 + ans3;
+      var possibility3 = ans1 + ans3;
+      if()
+      {
+        
+      }
   }
 });
