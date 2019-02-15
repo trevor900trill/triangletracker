@@ -139,7 +139,15 @@ body{
   justify-content: center;
   align-items: center;
 }
-
+.show1{
+  color: black;
+}
+.show2{
+  color: black;
+}
+.show3{
+  color: black;
+}
 .description{
   width:100%;
   display: flex;

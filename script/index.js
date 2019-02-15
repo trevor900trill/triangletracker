@@ -63,23 +63,40 @@ var clickFunction = (()=>{
               //render elements here;
               document.getElementsByClassName("triangleimage")[0].setAttribute("src","https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Triangle.Equilateral.svg/220px-Triangle.Equilateral.svg.png");
               document.getElementsByClassName("descriptiontext")[0].textContent="Equilateral triangle";
+              document.getElementsByClassName("show1")[0].textContent=ans1;
+              document.getElementsByClassName("show2")[0].textContent=ans2;
+              document.getElementsByClassName("show3")[0].textContent=ans3;
+
             }
             else if(ans1 === ans2 || ans2 === ans3 || ans1 === ans3)
             {
               alert("it is an isoceles Triangle");
               //render elements
-
+              document.getElementsByClassName("triangleimage")[0].setAttribute("src","https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Triangle.Isosceles.svg/200px-Triangle.Isosceles.svg.png");
+              document.getElementsByClassName("descriptiontext")[0].textContent="isosceles triangle";
+              document.getElementsByClassName("show1")[0].textContent=ans1;
+              document.getElementsByClassName("show2")[0].textContent=ans2;
+              document.getElementsByClassName("show3")[0].textContent=ans3;
             }
             else
             {
               alert("it is a scalene triangle");
               //render elements here;
-
+              document.getElementsByClassName("triangleimage")[0].setAttribute("src","https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Triangle.Scalene.svg/245px-Triangle.Scalene.svg.png");
+              document.getElementsByClassName("descriptiontext")[0].textContent="scalene triangle";
+              document.getElementsByClassName("show1")[0].textContent=ans1;
+              document.getElementsByClassName("show2")[0].textContent=ans2;
+              document.getElementsByClassName("show3")[0].textContent=ans3;
             }
         }
       }
       check(function(){
         //not a triangle logic goes here
+        document.getElementsByClassName("triangleimage")[0].setAttribute("src","#");
+        document.getElementsByClassName("descriptiontext")[0].textContent="Not a triangle";
+        document.getElementsByClassName("show1")[0].textContent=ans1;
+        document.getElementsByClassName("show2")[0].textContent=ans2;
+        document.getElementsByClassName("show3")[0].textContent=ans3;
         alert("not a triangle");
       });
   }
