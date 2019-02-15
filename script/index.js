@@ -53,6 +53,15 @@ var clickFunction = (()=>{
         {
           callback();
         }
+        else
+        {
+          //it is a Triangle
+          //which type logic goes here
+            if(ans1 === ans2  && ans2 === ans3 && ans1 === ans3)
+            {
+              alert("it is an equilateral triangle");
+            }
+        }
       }
       check(function(){
         //not a triangle logic goes here
