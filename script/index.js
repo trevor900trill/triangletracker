@@ -3,7 +3,7 @@ var firstValue = document.getElementById("the-input1");
 var secondValue = document.getElementById("the-input2");
 var thirdValue = document.getElementById("the-input3");
 //check if all the input fields are there while button is not clicked
-
+//this is to rmind the user to input values when the page is idle
 function timer(){
   setInterval(function(){
     if(firstValue.value === "" || secondValue.value === "" || thirdValue.value === "")
@@ -60,6 +60,17 @@ var clickFunction = (()=>{
             if(ans1 === ans2  && ans2 === ans3 && ans1 === ans3)
             {
               alert("it is an equilateral triangle");
+              //render elements here;
+            }
+            else if(ans1 === ans2 || ans2 === ans3 || ans1 === ans3)
+            {
+              //render elements
+              alert("it is an isoceles Triangle");
+            }
+            else
+            {
+              alert("it is a scalene triangle");
+              //render elements here;
             }
         }
       }
