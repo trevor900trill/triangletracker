@@ -61,11 +61,13 @@ var clickFunction = (()=>{
             {
               alert("it is an equilateral triangle");
               //render elements here;
+
             }
             else if(ans1 === ans2 || ans2 === ans3 || ans1 === ans3)
             {
-              //render elements
               alert("it is an isoceles Triangle");
+              //render elements
+
             }
             else
             {
