@@ -73,6 +73,7 @@ var clickFunction = (()=>{
             {
               alert("it is a scalene triangle");
               //render elements here;
+              
             }
         }
       }
