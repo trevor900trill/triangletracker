@@ -14,11 +14,11 @@ body{
   width:30%;
   overflow: auto;
   min-height: 669px;
-  box-shadow: 0px 0px 5px #646566;
-  -moz-box-shadow: 0px 0px 5px #646566;
-  -webkit-box-shadow: 0px 0px 5px #646566;
-  -ms-box-shadow: 0px 0px 5px #646566;
-  -o-box-shadow: 0px 0px 5px #646566;
+  box-shadow: 0px 0px .9px #646566;
+  -moz-box-shadow: 0px 0px .9px #646566;
+  -webkit-box-shadow: 0px 0px .9px #646566;
+  -ms-box-shadow: 0px 0px .9px #646566;
+  -o-box-shadow: 0px 0px .9px #646566;
 }
 .sidebar{
   background: white;
@@ -35,6 +35,32 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.logotext{
+  font-family: 'Tangerine', cursive;
+  font-size: 70px;
+  color: #a3a09b;
+}
+.inputs{
+  margin-top: 40px;
+}
+.inputsbox{
+  display: block;
+}
+.inputlabel{
+  color: #a3a09b;
+}
+.buttonbox{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  box-shadow: 0px 0px .5px #646566;
+  -moz-box-shadow: 0px 0px .5px #646566;
+  -webkit-box-shadow: 0px 0px .5px #646566;
+  -ms-box-shadow: 0px 0px .5px #646566;
+  -o-box-shadow: 0px 0px .5px #646566;
 }
 .content{
   padding: 0px;
