@@ -98,6 +98,6 @@ var clickFunction = (()=>{
         document.getElementsByClassName("show2")[0].textContent=ans2;
         document.getElementsByClassName("show3")[0].textContent=ans3;
         alert("not a triangle");
-      }); 
+      });    
   }
 });
