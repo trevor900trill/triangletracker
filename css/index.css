@@ -111,24 +111,18 @@ body{
   background-color: white;
 }
 .abs{
-  position: absolute;
-  top:20px;
+
   color: #a3a09b;
 }
 .abs2{
-  position: absolute;
-  top:40px;
+
   color: #a3a09b;
 }
 .abs3{
-  position: absolute;
-  top:60px;
-  color: #a3a09b;
-}
-.moreinfo{
-  color: #a3a09b;
 
+  color: #a3a09b;
 }
+
 .imagebox:hover{
   transform: scale(0.7);
 }
@@ -139,17 +133,13 @@ body{
   align-items: center;
   justify-content: center;
 }
-.aboutbox{
-  display: flex;
+.showvalue{
   width: 100%;
+  display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 90px;
 }
-.about{
-  text-align: center;
-  width:660px;
-}
+
 .description{
   width:100%;
   display: flex;

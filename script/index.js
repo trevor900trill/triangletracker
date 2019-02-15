@@ -61,7 +61,8 @@ var clickFunction = (()=>{
             {
               alert("it is an equilateral triangle");
               //render elements here;
-
+              document.getElementsByClassName("triangleimage")[0].setAttribute("src","https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Triangle.Equilateral.svg/220px-Triangle.Equilateral.svg.png");
+              document.getElementsByClassName("descriptiontext")[0].textContent="Equilateral triangle";
             }
             else if(ans1 === ans2 || ans2 === ans3 || ans1 === ans3)
             {
@@ -73,7 +74,7 @@ var clickFunction = (()=>{
             {
               alert("it is a scalene triangle");
               //render elements here;
-              
+
             }
         }
       }
