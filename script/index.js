@@ -91,13 +91,13 @@ var clickFunction = (()=>{
         }
       }
       check(function(){
+        alert("not a triangle");
         //not a triangle logic goes here
         document.getElementsByClassName("triangleimage")[0].setAttribute("src","#");
         document.getElementsByClassName("descriptiontext")[0].textContent="Not a triangle";
         document.getElementsByClassName("show1")[0].textContent=ans1;
         document.getElementsByClassName("show2")[0].textContent=ans2;
         document.getElementsByClassName("show3")[0].textContent=ans3;
-        alert("not a triangle");
       });
   }
 });
