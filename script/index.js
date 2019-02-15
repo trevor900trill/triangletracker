@@ -1,4 +1,4 @@
-//SYARY WEBSITE
+//SYART WEBSITE
 var firstValue = document.getElementById("the-input1");
 var secondValue = document.getElementById("the-input2");
 var thirdValue = document.getElementById("the-input3");
@@ -98,6 +98,6 @@ var clickFunction = (()=>{
         document.getElementsByClassName("show2")[0].textContent=ans2;
         document.getElementsByClassName("show3")[0].textContent=ans3;
         alert("not a triangle");
-      });    
+      });
   }
 });
