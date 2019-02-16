@@ -114,7 +114,7 @@ var count = 1;
 var previous = (() => {
     //get click count
     count = count + 1;
-    //get current position and go forward
+    //get current position and go backward
     var t = cache[cache.length - count];
     if(t === undefined)
     {
