@@ -15,10 +15,10 @@ function timer(){
     {
         //all the fiels are there
     }
-  },70000);
+  },170000);
 }
 //UNCOMMENT BELOW;
-//timer();
+timer();
 //ARRAY for history cache
 var cache = [];
 var clickFunction = (()=>{
