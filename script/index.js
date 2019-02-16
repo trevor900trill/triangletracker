@@ -15,7 +15,7 @@ function timer(){
     {
         //all the fiels are there
     }
-  },90000);
+  },9000);
 }
 //UNCOMMENT BELOW;
 timer();
