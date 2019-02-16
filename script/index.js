@@ -124,7 +124,6 @@ var previous = (() => {
     }
     else
     {
-      console.log(t);
       //render elements
       document.getElementsByClassName("triangleimage")[0].setAttribute("src",t[0]);
       document.getElementsByClassName("descriptiontext")[0].textContent=t[1];
