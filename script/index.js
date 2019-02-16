@@ -133,26 +133,3 @@ var previous = (() => {
     }
 });
 //Forward handle
-var count2 = 0;
-var forward = (() => {
-  //get current position
-  var positionindex = cache.length - count;
-  //go Forward
-  count2 = count2 + 1;
-  var forward = cache[positionindex + count2];
-  if( forward === undefined)
-  {
-    //do nothing if end has reached or max number of clicks;
-    count = 1;
-    alert("end of cache reload the page to start again number of clicks greater than array length");
-  }
-  else
-  {
-    //render elements
-    document.getElementsByClassName("triangleimage")[0].setAttribute("src",forward[0]);
-    document.getElementsByClassName("descriptiontext")[0].textContent=forward[1];
-    document.getElementsByClassName("show1")[0].textContent=forward[2];
-    document.getElementsByClassName("show2")[0].textContent=forward[3];
-    document.getElementsByClassName("show3")[0].textContent=forward[4];
-  }
-});
