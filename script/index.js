@@ -119,7 +119,7 @@ var previous = (() => {
     if(t === undefined)
     {
       //do nothing if end has reached or max number of clicks;
-      alert("end of cache reload the page to start again");
+      alert("end of cache reload the page to start again number of clicks greater than array length");
     }
     else
     {
@@ -143,7 +143,7 @@ var forward = (() => {
   if( forward === undefined)
   {
     //do nothing if end has reached or max number of clicks;
-    alert("end of cache reload the page to start again");
+    alert("end of cache reload the page to start again number of clicks greater than array length");
   }
   else
   {
